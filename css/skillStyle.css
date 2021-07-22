@@ -1,0 +1,110 @@
+body{
+    font-family: 'Architects Daughter', cursive;
+    background-color: gray;
+}
+#navbar{
+    background: linear-gradient(to bottom, rgb(206, 195, 195), #f8f8f8);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px;
+    box-shadow: 4px 4px 10px black ;
+}
+
+.link{
+    text-decoration: none;
+}
+.navitems{
+    display: inline-block;
+    color: black;
+    font-size: 150%;
+}
+
+.navitems:hover{
+    text-shadow: 4px 4px 18px black ;
+    color: grey;
+}
+
+
+.headings{
+    text-shadow: 4px 4px 8px gray;
+    font-size: 4em;
+}
+
+.cards{
+    background: linear-gradient(to bottom, rgb(206, 195, 195), #f8f8f8);
+    box-shadow: 4px 4px 10px black;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow:auto;
+}
+
+.cards:hover{
+    box-shadow: 8px 8px 20px black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#back{
+    background: black;
+    color: white;
+    border: 1px solid #3a3737;
+    padding: 5px;
+    border-radius: 500px;
+}
+#back:hover{
+    background: gray;
+    color: white;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.skl{
+    padding: 5px;
+    margin: 4px;
+    display: inline-block;
+    border: 1px solid rgb(70, 68, 68);
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.ttl{
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.txt{
+    font-size: 1em;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color: black;
+}
+.icons{
+    display: inline-block;
+    padding: 10px;
+}
+
+#top{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.tt{
+    font-size: 1em;
+    font-weight: lighter;
+}
+.time{
+    float: right;
+    color: rgb(56, 54, 54);
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+#content{
+    background-image: url('/images/bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#nimg{
+    border-radius: 500px;
+    border: 2px solid gray;
+    box-shadow: 14px 14px 14px rgb(56, 54, 54);
+    margin-top: 20px;
+    height: 30rem;
+    width: 30rem;
+}
+#nimg:hover{
+    box-shadow: 14px 14px 14px greenyellow;
+}
+#text{
+    display: inline-block;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 3em;
+    text-shadow: 4px 4px 8px gray;
+}
+h1:hover, h3:hover{
+    text-shadow: 4px 4px 8px greenyellow;
+}
+h3{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 4px 8px gray;
+    
+}
+span{
+    font-size: 1.5em;
+}
+#buttons{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn{
+    font-size: 1em;
+    margin-top: 25px;
+    color: white;
+    padding: 25px;
+    border: 0.4px dashed white;
+    border-radius: 35px;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.btn:hover{
+    border: 0.4px solid white;
+    color: rgb(172, 255, 47);
+    background-image: url('/images/btnBg.gif');
+    background-size: cover;
+    box-shadow: 4px 4px 8px gray;
+}
+
+#me{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+@media (max-width: 600px) {
+    #nimg{
+        width: 20rem;
+        height: 20rem;
+    }
+    #content{
+        height: 50rem;
+    }
+  }
