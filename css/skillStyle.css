@@ -116,3 +116,60 @@ footer{
 #ns{
     color: red;
 }
+
+.bt{
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+
+#mail{
+    background-color: lightcoral;
+}
+#mail:hover{ 
+    background-color: gray;
+}
+#twt{
+    background-color: paleturquoise;
+}
+#twt:hover{ 
+    background-color: gray;
+}
+#disc{
+    background-color: rgb(212, 134, 212);
+}
+#disc:hover{ 
+    background-color: gray;
+}
+#lnkd{
+    background-color: rgb(56, 163, 230);
+}
+#lnkd:hover{ 
+    background-color: gray;
+}
+#mdm{
+    background-color: lightslategray;
+}
+#mdm:hover{ 
+    background-color: gray;
+}
+#ghb{
+    background-color: lightgreen;
+}
+#ghb:hover{ 
+    background-color: gray;
+}
+#dv{
+    background-color: black;
+    color: white;
+}
+#dv:hover{ 
+    background-color: gray;
+    color: black;
+}
+.bt:hover{
+    background-color: gray;
+    border: 1px dashed black;
+}
