@@ -116,6 +116,9 @@ footer{
 #ns{
     color: red;
 }
+#ff{
+    text-decoration: none;
+}
 
 .bt{
     border: 1px solid black;
