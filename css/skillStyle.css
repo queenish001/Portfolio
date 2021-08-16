@@ -37,6 +37,7 @@ body{
     box-shadow: 4px 4px 10px black;
     margin: 30px;
     padding: 20px;
+    padding-right: 60px;
     border-radius: 10px;
     overflow:auto;
 }
@@ -175,4 +176,8 @@ footer{
 .bt:hover{
     background-color: gray;
     border: 1px dashed black;
+}
+
+.bld{
+    font-weight: bolder;
 }
