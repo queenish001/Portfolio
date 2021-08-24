@@ -19,7 +19,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 .link{
+    padding: 2px;
     text-decoration: none;
+
 }
 .navitems{
     display: inline-block;
@@ -99,13 +101,13 @@ span{
     padding: 10px;
 }
 
-#top{
-    font-size: larger;
-    font-weight: bold;
+.top{
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 .tt{
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 500;
 }
 .time{
