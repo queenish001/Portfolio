@@ -6,6 +6,12 @@ body{
     font-family: 'Lato', sans-serif;
     background-color: gray;
 }
+
+::selection {
+    color: gray;
+    background: black;
+  }
+  
 #navbar{
     background: linear-gradient(to bottom, rgb(206, 195, 195), #f8f8f8);
     border-radius: 5px;
