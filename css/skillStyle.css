@@ -44,7 +44,11 @@ body{
     text-shadow: 4px 4px 8px gray;
     font-size: 4em;
 }
-
+.headings:hover{
+    font-size: 4.5em;
+    text-shadow: 10px 10px 18px #5d5c5c;
+    transition: 1s;
+}
 .cards{
     background: linear-gradient(to bottom, rgb(206, 195, 195), #f8f8f8);
     box-shadow: 4px 4px 10px black;
