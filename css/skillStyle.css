@@ -35,7 +35,8 @@ body{
 
 .navitems:hover{
     text-shadow: 4px 4px 18px black ;
-    color: grey;
+    color: white;
+    transition: 0.2s;
 }
 
 
@@ -51,11 +52,13 @@ body{
     padding: 20px;
     padding-right: 60px;
     border-radius: 10px;
+    box-shadow: 8px 8px 20px black;
     overflow:auto;
 }
 
 .cards:hover{
-    box-shadow: 8px 8px 20px black;
+    box-shadow: 8px 8px 20px white;
+    transition: 0.5s;
 }
 #container{
     display: flex;
@@ -84,6 +87,10 @@ body{
     background-color: grey;
     color: white;
     border-radius: 5px;
+}
+.skl:hover{
+    box-shadow: 4px 4px 8px rgb(29, 28, 28);
+    transition: 0.2s;
 }
 
 .ttl{
@@ -123,9 +130,26 @@ footer{
     font-family: 'Architects Daughter', cursive;
 
 }
-
+#ns:hover{
+    text-shadow: 6px 6px 20px red;
+    color: pink;
+    transition: 0.4s;
+}
+#hrt:hover{
+    font-size: larger;
+    transition: 0.3s;
+    text-shadow: 4px 4px 20px pink;
+}
+a:hover{
+    text-shadow: 5px 5px 20px navy;
+    color: cyan;
+    transition: 0.5s;
+}
 .bold{
     font-weight: bold;
+}
+a{
+    text-decoration: none;
 }
 
 #ns{
@@ -184,12 +208,18 @@ footer{
     color: white;
 }
 #dv:hover{ 
-    background-color: gray;
+    background-color: white;
+    transition: 0.4s;
     color: black;
+    font-weight: bolder;
 }
 .bt:hover{
     background-color: gray;
     border: 1px dashed black;
+    box-shadow: 4px 4px 8px gray;
+    color: white;
+    transition: 0.4s;
+    font-size:large;
 }
 
 .bld{
