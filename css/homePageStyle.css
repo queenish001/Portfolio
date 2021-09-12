@@ -22,7 +22,10 @@ body{
     width: 30rem;
 }
 #nimg:hover{
-    box-shadow: 14px 14px 14px greenyellow;
+    box-shadow: 14px 14px 24px greenyellow;
+    transition: 0.8s;
+    width: 32rem;
+    height: 32rem;
 }
 #text{
     display: inline-block;
@@ -34,8 +37,15 @@ h1{
     text-shadow: 4px 4px 8px gray;
     margin-left: 1px;
 }
-h1:hover, h3:hover{
-    text-shadow: 4px 4px 8px greenyellow;
+h1:hover{
+    transition: 0.5s;
+    text-shadow: 10px 10px 14px greenyellow;
+    font-size: 42px
+}
+h3:hover{
+    transition: 0.5s;
+    text-shadow: 10px 10px 14px greenyellow;
+    font-size: 20px
 }
 h3{
     color: white;
@@ -67,10 +77,12 @@ span{
 }
 .btn:hover{
     border: 0.4px solid white;
-    color: rgb(172, 255, 47);
+    color: #acff2f;
     background-image: url('/images/btnBg.gif');
     background-size: cover;
-    box-shadow: 4px 4px 8px gray;
+    transition: 0.7s;
+    box-shadow: 14px 14px 20px gray;
+    font-size: large;
 }
 
 #me{
