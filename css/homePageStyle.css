@@ -20,12 +20,14 @@ body{
     margin-top: 20px;
     height: 30rem;
     width: 30rem;
+    /* transition: width 0.5s ease-in 100ms;
+    transition: height 0.5s ease-in 100ms; */
 }
 #nimg:hover{
     box-shadow: 14px 14px 24px greenyellow;
     transition: 0.8s;
-    width: 32rem;
-    height: 32rem;
+    /* width: 31rem;
+    height: 31rem; */
 }
 #text{
     display: inline-block;
@@ -36,14 +38,14 @@ h1{
     font-size: 2.5em;
     text-shadow: 4px 4px 8px gray;
     margin-left: 1px;
+    transition: font-size 0.3s ease-in 100ms;
 }
 h1:hover{
-    transition: 0.5s;
     text-shadow: 10px 10px 14px greenyellow;
     font-size: 42px
 }
 h3:hover{
-    transition: 0.5s;
+    /* transition: 0.5s; */
     text-shadow: 10px 10px 14px greenyellow;
     font-size: 20px
 }
@@ -52,7 +54,7 @@ h3{
     font-size: 1.2rem;
     font-family: 'Press Start 2P', cursive;
     text-shadow: 4px 4px 8px gray;
-    
+    transition: font-size 0.3s ease-in 100ms;
 }
 span{
     font-size: 1.5em;
@@ -73,6 +75,7 @@ span{
     background-color: black;
     cursor: pointer;
     font-family: 'Press Start 2P', cursive;
+    transition: font-size 0.5s ease-out 100ms;
 
 }
 .btn:hover{
