@@ -91,12 +91,15 @@ body{
     border: 1px solid rgb(70, 68, 68);
     background-color: grey;
     color: white;
+    font-size: 1rem;
+    box-shadow: 4px 4px 8px gray;
     transition: font-size 0.2s ease-in 100ms;
     border-radius: 5px;
 }
 .skl:hover{
-    box-shadow: 4px 4px 8px rgb(29, 28, 28);
-    font-size: large;
+    box-shadow: 4px 4px 8px #eee6e6;
+    font-size: 1.02rem;
+    /* background-color: black; */
 }
 
 .ttl{
